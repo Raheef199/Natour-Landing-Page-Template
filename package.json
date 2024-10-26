@@ -1,0 +1,16 @@
+{
+  "name": "nn",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass/main.scss css/style.comp.css",
+    "concat:css": ""
+  },
+  "author": "Rahif",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
